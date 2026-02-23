@@ -33,7 +33,7 @@ const fallbackPeople = [
       "New York Knicks W",
       "Phoenix Suns L",
       "Detroit Pistons W",
-      "Los Angeles Clippers W",
+      "LA Clippers W",
       "Philadelphia 76ers W",
     ],
     total: 199,
@@ -390,14 +390,6 @@ function renderChart() {
       dot.setAttribute("stroke", "#000");
       dot.setAttribute("stroke-width", "1.5");
       svg.appendChild(dot);
-
-      const val = document.createElementNS("http://www.w3.org/2000/svg", "text");
-      val.setAttribute("x", cx);
-      val.setAttribute("y", cy - 8);
-      val.setAttribute("text-anchor", "middle");
-      val.setAttribute("class", "axis-label");
-      val.textContent = point.total;
-      svg.appendChild(val);
     });
 
     const lastPoint = series[series.length - 1];
