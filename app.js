@@ -101,9 +101,10 @@ const TEAM_LOGOS = {
   "Washington Wizards": "https://cdn.nba.com/logos/nba/1610612764/global/L/logo.svg",
 };
 
-const seasonStart = new Date("2025-10-21T00:00:00");
+let seasonStart = new Date("2025-10-21T00:00:00");
 let today = new Date();
 let todayISO = today.toISOString().slice(0, 10);
+let asOfDate = todayISO;
 
 function hashSeed(input) {
   let hash = 0;
@@ -177,7 +178,11 @@ const seriesByPerson = new Map();
 function rebuildSeries() {
   seriesByPerson.clear();
   people.forEach((person) => {
-    seriesByPerson.set(person.name, buildSeries(person.name, person.total));
+    if (Array.isArray(person.series) && person.series.length) {
+      seriesByPerson.set(person.name, person.series);
+    } else {
+      seriesByPerson.set(person.name, buildSeries(person.name, person.total));
+    }
   });
 }
 
@@ -195,7 +200,13 @@ function renderTable() {
   const tbody = document.querySelector("#picks-table tbody");
   tbody.innerHTML = "";
 
-  const ranked = [...people].sort((a, b) => b.total - a.total);
+  const getLatestTotal = (person) => {
+    const series = seriesByPerson.get(person.name) || [];
+    if (series.length) return series[series.length - 1].total;
+    return person.total || 0;
+  };
+
+  const ranked = [...people].sort((a, b) => getLatestTotal(b) - getLatestTotal(a));
   ranked.forEach((person) => {
     const row = document.createElement("tr");
 
@@ -246,7 +257,8 @@ function renderTable() {
 
     const totalCell = document.createElement("td");
     totalCell.className = "total";
-    totalCell.textContent = person.total;
+    const latest = getLatestTotal(person);
+    totalCell.textContent = latest;
 
     row.appendChild(nameCell);
     row.appendChild(pickCell);
@@ -289,7 +301,7 @@ function renderChart() {
   const allSeries = Array.from(seriesByPerson.values());
   const maxTotal = Math.max(...allSeries.flat().map((point) => point.total), 10);
 
-  const totalWeeks = allSeries[0].length - 1;
+  const totalWeeks = allSeries[0]?.length ? allSeries[0].length - 1 : 1;
 
   function xScale(index) {
     return padding.left + (index / totalWeeks) * chartW;
@@ -403,10 +415,10 @@ function renderChart() {
 
 function renderMeta() {
   const asOf = document.getElementById("as-of");
-  asOf.textContent = `As of ${todayISO}`;
+  asOf.textContent = `As of ${asOfDate}`;
 
   const range = document.getElementById("date-range");
-  range.textContent = `Season start ${seasonStart.toISOString().slice(0, 10)} → ${todayISO}`;
+  range.textContent = `Season start ${seasonStart.toISOString().slice(0, 10)} → ${asOfDate}`;
 }
 
 function renderAll() {
@@ -425,6 +437,12 @@ async function loadData() {
     const data = await response.json();
     if (Array.isArray(data.people)) {
       people = data.people;
+    }
+    if (data.seasonStart) {
+      seasonStart = new Date(`${data.seasonStart}T00:00:00`);
+    }
+    if (data.asOf) {
+      asOfDate = data.asOf;
     }
   } catch (error) {
     people = [...fallbackPeople];
