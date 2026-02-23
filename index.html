@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NBA Skins Draft Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-splash"></div>
+    <div class="bg-noise"></div>
+
+    <header class="hero">
+      <div class="hero-badge">Skins Draft</div>
+      <h1>NBA Street Vol. 2 Scoreboard</h1>
+      <p class="subhead">Draft six teams. Pick wins or losses. Stack points every game night.</p>
+    </header>
+
+    <main class="page">
+      <section class="card">
+        <div class="card-header">
+          <h2>Picks + Daily Totals</h2>
+          <div class="chip" id="as-of">As of —</div>
+        </div>
+        <div class="table-wrap">
+          <table id="picks-table" aria-label="Skins draft picks and totals">
+            <thead>
+              <tr>
+                <th>Player</th>
+                <th>Picks (Team + W/L)</th>
+                <th>Total To Date</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="card-header">
+          <h2>Season Total Timeline</h2>
+          <div class="legend" id="legend"></div>
+        </div>
+        <div class="chart-wrap">
+          <svg id="line-chart" viewBox="0 0 1000 420" role="img" aria-label="Line chart of totals"></svg>
+        </div>
+        <div class="chart-foot">
+          <span id="date-range"></span>
+          <span class="note">Daily refresh reads <code>data.json</code>.</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>Mode: 90s / early 2000s streetball arcade</div>
+      <div class="pulse">No mercy. Just buckets.</div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

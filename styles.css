@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Oswald:wght@400;600&family=Permanent+Marker&family=Rubik+Mono+One&display=swap");
+
+:root {
+  --ink: #0a0a0a;
+  --paper: #f4ecd9;
+  --cyan: #28d7d9;
+  --pink: #ff2a4f;
+  --yellow: #ffd44d;
+  --orange: #ff7a1a;
+  --lime: #8bd200;
+  --blue: #2b54ff;
+  --purple: #6a2bff;
+  --shadow: rgba(0, 0, 0, 0.5);
+  --edge: #0b0b0b;
+  --card: #f8f1df;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: "Oswald", "Franklin Gothic Medium", sans-serif;
+  background: radial-gradient(circle at top, #4fb6ff 0%, #1b2a5c 45%, #0b0e1c 100%);
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.bg-splash {
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(circle at 10% 18%, rgba(255, 212, 77, 0.95), transparent 32%),
+    radial-gradient(circle at 88% 10%, rgba(255, 42, 79, 0.85), transparent 42%),
+    radial-gradient(circle at 82% 82%, rgba(40, 215, 217, 0.85), transparent 45%),
+    radial-gradient(circle at 30% 80%, rgba(255, 122, 26, 0.7), transparent 40%),
+    linear-gradient(160deg, rgba(6, 8, 14, 0.75), rgba(5, 8, 16, 0.95));
+  mix-blend-mode: normal;
+  opacity: 1;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.bg-noise {
+  position: fixed;
+  inset: 0;
+  background-image:
+    radial-gradient(rgba(0, 0, 0, 0.2) 0.6px, transparent 0.6px),
+    repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.08),
+      rgba(255, 255, 255, 0.08) 1px,
+      transparent 1px,
+      transparent 4px
+    );
+  background-size: 6px 6px, auto;
+  opacity: 0.25;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.hero {
+  position: relative;
+  z-index: 2;
+  padding: 40px 20px 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  margin: 12px 0 6px;
+  font-family: "Bowlby One SC", "Impact", sans-serif;
+  font-size: clamp(2.2rem, 6vw, 4.6rem);
+  letter-spacing: 3px;
+  text-shadow: 0 4px 0 #000, 0 12px 24px var(--shadow);
+  color: #fef3db;
+}
+
+.subhead {
+  margin: 0 auto;
+  max-width: 640px;
+  font-size: clamp(1rem, 2.2vw, 1.4rem);
+  letter-spacing: 1px;
+  color: #f7e9c8;
+}
+
+.hero-badge {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 3px solid var(--ink);
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.5);
+  color: var(--ink);
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  transform: skew(-8deg);
+  background: var(--yellow);
+}
+
+.page {
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+  display: grid;
+  gap: 24px;
+}
+
+.card {
+  background: var(--card);
+  border: 4px solid var(--edge);
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.45);
+  padding: 20px;
+  clip-path: polygon(2% 0%, 100% 0%, 98% 100%, 0% 100%);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.card h2 {
+  margin: 0;
+  font-family: "Bowlby One SC", "Impact", sans-serif;
+  font-size: clamp(1.3rem, 3.5vw, 2.1rem);
+  letter-spacing: 2px;
+  color: var(--ink);
+}
+
+.chip {
+  padding: 6px 12px;
+  background: var(--pink);
+  border: 3px solid var(--ink);
+  color: var(--ink);
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  margin-top: 16px;
+}
+
+#picks-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 680px;
+}
+
+#picks-table th,
+#picks-table td {
+  padding: 14px 12px;
+  text-align: center;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+#picks-table th {
+  color: var(--ink);
+  font-size: 0.95rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#picks-table tbody tr {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+#picks-table tbody tr:nth-child(odd) {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.name-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.05rem;
+  justify-content: center;
+  width: 100%;
+}
+
+.swatch {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 2px 2px 0 #000;
+}
+
+.pick-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 10px 12px;
+  font-family: "Permanent Marker", "Rockwell", "Courier New", serif;
+  font-size: 0.95rem;
+  justify-items: center;
+}
+
+.pick-item {
+  display: grid;
+  grid-template-columns: 40px 1fr auto;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border: 2px solid var(--ink);
+  background: #fff7e5;
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.15);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 100%;
+  max-width: 260px;
+}
+
+.pick-logo {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+}
+
+.pick-team {
+  font-size: 0.92rem;
+}
+
+.pick-badge {
+  padding: 4px 8px;
+  border: 2px solid var(--ink);
+  font-family: "Rubik Mono One", "Oswald", sans-serif;
+  font-size: 0.75rem;
+  background: #fff;
+}
+
+.pick-badge.win {
+  background: #d9ff8a;
+}
+
+.pick-badge.loss {
+  background: #ffd0d8;
+}
+
+.total {
+  font-size: 1.4rem;
+  color: var(--ink);
+  text-shadow: none;
+  text-align: center;
+}
+
+.chart-wrap {
+  margin-top: 16px;
+  background: #fff7e5;
+  border: 3px solid var(--ink);
+  padding: 12px;
+}
+
+#line-chart {
+  width: 100%;
+  height: auto;
+}
+
+.axis-label {
+  fill: #333;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.grid-line {
+  stroke: rgba(0, 0, 0, 0.12);
+  stroke-width: 1;
+}
+
+.chart-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+  font-size: 0.85rem;
+  color: #3b3b3b;
+}
+
+.legend {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-family: "Permanent Marker", "Rockwell", "Courier New", serif;
+  font-size: 0.85rem;
+  color: var(--ink);
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px 20px 50px;
+  color: #dcd2be;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+  position: relative;
+  z-index: 2;
+}
+
+.pulse {
+  margin-top: 6px;
+  color: var(--pink);
+  text-shadow: 0 0 10px rgba(255, 45, 149, 0.6);
+}
+
+@media (max-width: 720px) {
+  .hero {
+    padding-top: 30px;
+  }
+
+  .card {
+    padding: 16px;
+  }
+
+  .pick-list {
+    font-size: 0.85rem;
+  }
+}

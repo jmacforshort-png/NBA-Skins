@@ -1,0 +1,69 @@
+{
+  "people": [
+    {
+      "name": "John",
+      "color": "#28d7d9",
+      "picks": [
+        "Utah Jazz L",
+        "Orlando Magic W",
+        "Sacramento Kings L",
+        "Milwaukee Bucks W",
+        "Chicago Bulls L",
+        "Miami Heat L"
+      ],
+      "total": 198
+    },
+    {
+      "name": "Geoff",
+      "color": "#ff7a1a",
+      "picks": [
+        "Oklahoma City Thunder W",
+        "Denver Nuggets W",
+        "New Orleans Pelicans L",
+        "Portland Trail Blazers L",
+        "Indiana Pacers L",
+        "Toronto Raptors W"
+      ],
+      "total": 226
+    },
+    {
+      "name": "Nay",
+      "color": "#8bd200",
+      "picks": [
+        "Brooklyn Nets L",
+        "New York Knicks W",
+        "Phoenix Suns L",
+        "Detroit Pistons W",
+        "Los Angeles Clippers W",
+        "Philadelphia 76ers W"
+      ],
+      "total": 199
+    },
+    {
+      "name": "Tom",
+      "color": "#2b54ff",
+      "picks": [
+        "Washington Wizards L",
+        "Houston Rockets W",
+        "Golden State Warriors W",
+        "Atlanta Hawks L",
+        "Dallas Mavericks L",
+        "Boston Celtics L"
+      ],
+      "total": 188
+    },
+    {
+      "name": "Jack",
+      "color": "#ff2a4f",
+      "picks": [
+        "Charlotte Hornets L",
+        "Cleveland Cavaliers W",
+        "San Antonio Spurs W",
+        "Minnesota Timberwolves W",
+        "Los Angeles Lakers W",
+        "Memphis Grizzlies W"
+      ],
+      "total": 197
+    }
+  ]
+}
