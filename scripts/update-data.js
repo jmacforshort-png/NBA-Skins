@@ -48,7 +48,9 @@ async function fetchJson(url) {
   });
   if (!res.ok) {
     const text = await res.text();
-    throw new Error(`Request failed ${res.status}: ${text}`);
+    const error = new Error(`Request failed ${res.status}: ${text}`);
+    error.status = res.status;
+    throw error;
   }
   return res.json();
 }
@@ -57,6 +59,26 @@ async function fetchTeams() {
   const url = `${API_BASE}/teams`;
   const json = await fetchJson(url);
   return json.data || [];
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function fetchJsonWithRetry(url, attempts = 5) {
+  let wait = 800;
+  for (let i = 0; i < attempts; i += 1) {
+    try {
+      return await fetchJson(url);
+    } catch (error) {
+      if (error.status !== 429 || i === attempts - 1) {
+        throw error;
+      }
+      await sleep(wait);
+      wait *= 2;
+    }
+  }
+  throw new Error("Request failed after retries");
 }
 
 async function fetchGames(teamIds, startDate, endDate) {
@@ -72,13 +94,14 @@ async function fetchGames(teamIds, startDate, endDate) {
     teamIds.forEach((id) => params.append("team_ids[]", String(id)));
 
     const url = `${API_BASE}/games?${params.toString()}`;
-    const json = await fetchJson(url);
+    const json = await fetchJsonWithRetry(url);
     const chunk = json.data || [];
     all.push(...chunk);
 
     const next = json.meta?.next_cursor;
     if (!next) break;
     cursor = next;
+    await sleep(650);
   }
 
   return all;
