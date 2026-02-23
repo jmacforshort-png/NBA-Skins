@@ -33,7 +33,7 @@ const fallbackPeople = [
       "New York Knicks W",
       "Phoenix Suns L",
       "Detroit Pistons W",
-      "LA Clippers W",
+      "Los Angeles Clippers W",
       "Philadelphia 76ers W",
     ],
     total: 199,
@@ -308,8 +308,34 @@ function renderChart() {
     return padding.left + (index / totalWeeks) * chartW;
   }
 
+  // Build adjusted series (points above last place each week)
+  const adjustedSeriesByPerson = new Map();
+  const sampleSeries = allSeries[0] || [];
+  for (let i = 0; i < sampleSeries.length; i += 1) {
+    const totalsAtWeek = people.map((person) => {
+      const series = seriesByPerson.get(person.name) || [];
+      return series[i]?.total ?? 0;
+    });
+    const minTotal = totalsAtWeek.length ? Math.min(...totalsAtWeek) : 0;
+    people.forEach((person) => {
+      const series = seriesByPerson.get(person.name) || [];
+      const original = series[i]?.total ?? 0;
+      const adj = original - minTotal;
+      if (!adjustedSeriesByPerson.has(person.name)) {
+        adjustedSeriesByPerson.set(person.name, []);
+      }
+      adjustedSeriesByPerson.get(person.name).push({
+        date: series[i]?.date ?? sampleSeries[i].date,
+        total: adj,
+      });
+    });
+  }
+
+  const allAdjusted = Array.from(adjustedSeriesByPerson.values());
+  const maxAdjusted = Math.max(...allAdjusted.flat().map((point) => point.total), 10);
+
   function yScale(value) {
-    return padding.top + chartH - (value / maxTotal) * chartH;
+    return padding.top + chartH - (value / maxAdjusted) * chartH;
   }
 
   // Grid lines
@@ -328,7 +354,7 @@ function renderChart() {
     label.setAttribute("x", 10);
     label.setAttribute("y", y + 4);
     label.setAttribute("class", "axis-label");
-    const value = Math.round(maxTotal - (i / gridCount) * maxTotal);
+    const value = Math.round(maxAdjusted - (i / gridCount) * maxAdjusted);
     label.textContent = value;
     svg.appendChild(label);
   }
@@ -345,7 +371,6 @@ function renderChart() {
 
   // X-axis labels (weekly)
   const labelEvery = 1;
-  const sampleSeries = allSeries[0] || [];
   sampleSeries.forEach((point, index) => {
     if (index % labelEvery !== 0) return;
     const x = xScale(index);
@@ -360,7 +385,7 @@ function renderChart() {
 
   // Lines
   people.forEach((person) => {
-    const series = seriesByPerson.get(person.name);
+    const series = adjustedSeriesByPerson.get(person.name) || [];
     const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
     const d = series
       .map((point, index) => {
