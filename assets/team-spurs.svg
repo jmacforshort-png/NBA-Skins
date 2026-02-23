@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" role="img" aria-label="Spurs comic logo">
+  <rect x="8" y="8" width="124" height="124" rx="18" fill="#f3efe6" stroke="#111" stroke-width="6"/>
+  <path d="M30 52 h80" stroke="#111" stroke-width="8" stroke-linecap="round"/>
+  <path d="M30 70 h80" stroke="#111" stroke-width="8" stroke-linecap="round"/>
+  <path d="M30 88 h80" stroke="#111" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="70" cy="70" r="14" fill="#111"/>
+  <circle cx="70" cy="70" r="6" fill="#f3efe6"/>
+  <text x="70" y="122" text-anchor="middle" font-family="Impact, sans-serif" font-size="18" fill="#111">SPURS</text>
+</svg>

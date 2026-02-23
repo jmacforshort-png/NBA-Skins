@@ -101,8 +101,15 @@ body {
   flex-wrap: wrap;
 }
 
+.hero-logos {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
 .hero-logo {
-  width: 70px;
+  width: 62px;
   height: auto;
   filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.5));
 }
