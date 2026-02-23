@@ -1,6 +1,5 @@
-import fs from "fs";
-import path from "path";
-import { fileURLToPath } from "url";
+const fs = require("fs");
+const path = require("path");
 
 const API_BASE = "https://api.balldontlie.io/v1";
 const API_KEY = process.env.BALLDONTLIE_API_KEY;
@@ -10,8 +9,6 @@ if (!API_KEY) {
   process.exit(1);
 }
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 const ROOT = path.resolve(__dirname, "..");
 const DATA_PATH = path.join(ROOT, "data.json");
 
