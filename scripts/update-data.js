@@ -158,6 +158,14 @@ function updateTeamStats(stats, game) {
   }
 }
 
+function computeFinalStats(games) {
+  const stats = new Map();
+  games.forEach((game) => {
+    updateTeamStats(stats, game);
+  });
+  return stats;
+}
+
 function computeTotals(people, picksByPerson, teamIdByName, weekDates, games) {
   const seriesByPerson = new Map();
   people.forEach((person) => seriesByPerson.set(person.name, []));
@@ -227,6 +235,7 @@ async function main() {
   finalGames.sort((a, b) => (a.date < b.date ? -1 : 1));
 
   const weekDates = getWeekDates(seasonStart, endDate);
+  const finalStats = computeFinalStats(finalGames);
   const seriesByPerson = computeTotals(
     people,
     picksByPerson,
@@ -238,10 +247,18 @@ async function main() {
   const updatedPeople = people.map((person) => {
     const series = seriesByPerson.get(person.name) || [];
     const total = series.length ? series[series.length - 1].total : 0;
+    const picks = (person.picks || []).map((pick) => {
+      const parsed = parsePick(pick);
+      const teamId = teamIdByName.get(parsed.team);
+      const record = finalStats.get(teamId) || { wins: 0, losses: 0 };
+      const earned = parsed.wl === "W" ? record.wins : record.losses;
+      return { team: parsed.team, wl: parsed.wl, earned };
+    });
     return {
       ...person,
       total,
       series,
+      picks,
     };
   });
 

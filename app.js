@@ -192,9 +192,9 @@ function normalizePick(pick) {
     const parts = pick.trim().split(" ");
     const wl = parts[parts.length - 1];
     const team = parts.slice(0, -1).join(" ");
-    return { team, wl };
+    return { team, wl, earned: null };
   }
-  return pick;
+  return { earned: null, ...pick };
 }
 
 function renderTable() {
@@ -248,9 +248,14 @@ function renderTable() {
       badge.className = `pick-badge ${pick.wl === "W" ? "win" : "loss"}`;
       badge.textContent = pick.wl;
 
+      const earned = document.createElement("span");
+      earned.className = "pick-earned";
+      earned.textContent = pick.earned == null ? "—" : pick.earned;
+
       item.appendChild(logo);
       item.appendChild(team);
       item.appendChild(badge);
+      item.appendChild(earned);
       pickList.appendChild(item);
     });
 
