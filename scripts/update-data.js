@@ -3,6 +3,7 @@ const path = require("path");
 
 const API_BASE = "https://api.balldontlie.io/v1";
 const API_KEY = process.env.BALLDONTLIE_API_KEY;
+const MIN_REQUEST_INTERVAL_MS = 13000; // Free tier is 5 req/min
 
 if (!API_KEY) {
   console.error("Missing BALLDONTLIE_API_KEY");
@@ -41,6 +42,7 @@ function parsePick(pick) {
 }
 
 async function fetchJson(url) {
+  await rateLimit();
   const res = await fetch(url, {
     headers: {
       Authorization: API_KEY,
@@ -59,6 +61,16 @@ async function fetchTeams() {
   const url = `${API_BASE}/teams`;
   const json = await fetchJson(url);
   return json.data || [];
+}
+
+let lastRequestAt = 0;
+async function rateLimit() {
+  const now = Date.now();
+  const elapsed = now - lastRequestAt;
+  if (elapsed < MIN_REQUEST_INTERVAL_MS) {
+    await sleep(MIN_REQUEST_INTERVAL_MS - elapsed);
+  }
+  lastRequestAt = Date.now();
 }
 
 function sleep(ms) {
@@ -101,7 +113,6 @@ async function fetchGames(teamIds, startDate, endDate) {
     const next = json.meta?.next_cursor;
     if (!next) break;
     cursor = next;
-    await sleep(650);
   }
 
   return all;
