@@ -31,7 +31,7 @@ jobs:
             echo "No updates"
             exit 0
           fi
-          git pull --rebase
+          git pull --rebase --autostash
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data.json
