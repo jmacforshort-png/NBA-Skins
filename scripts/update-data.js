@@ -21,7 +21,9 @@ const endDate = today.toISOString().slice(0, 10);
 
 const TEAM_ALIASES = {
   "LA Clippers": "Los Angeles Clippers",
+  "Los Angeles Clippers": "LA Clippers",
   "LA Lakers": "Los Angeles Lakers",
+  "Los Angeles Lakers": "Los Angeles Lakers",
 };
 
 function normalizeTeam(name) {
@@ -165,7 +167,13 @@ async function main() {
   const teamIdByName = new Map();
   teams.forEach((team) => {
     teamIdByName.set(team.full_name, team.id);
+    teamIdByName.set(`${team.city} ${team.name}`, team.id);
   });
+
+  // Add explicit aliases for known mismatches
+  if (teamIdByName.has("LA Clippers")) {
+    teamIdByName.set("Los Angeles Clippers", teamIdByName.get("LA Clippers"));
+  }
 
   const missing = [];
   teamNames.forEach((team) => {
