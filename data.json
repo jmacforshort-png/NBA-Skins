@@ -6,12 +6,36 @@
       "name": "John",
       "color": "#28d7d9",
       "picks": [
-        "Utah Jazz L",
-        "Orlando Magic W",
-        "Sacramento Kings L",
-        "Milwaukee Bucks W",
-        "Chicago Bulls L",
-        "Miami Heat L"
+        {
+          "team": "Utah Jazz",
+          "wl": "L",
+          "earned": 39
+        },
+        {
+          "team": "Orlando Magic",
+          "wl": "W",
+          "earned": 30
+        },
+        {
+          "team": "Sacramento Kings",
+          "wl": "L",
+          "earned": 46
+        },
+        {
+          "team": "Milwaukee Bucks",
+          "wl": "W",
+          "earned": 24
+        },
+        {
+          "team": "Chicago Bulls",
+          "wl": "L",
+          "earned": 34
+        },
+        {
+          "team": "Miami Heat",
+          "wl": "L",
+          "earned": 27
+        }
       ],
       "total": 200,
       "series": [
@@ -97,12 +121,36 @@
       "name": "Geoff",
       "color": "#ff7a1a",
       "picks": [
-        "Oklahoma City Thunder W",
-        "Denver Nuggets W",
-        "New Orleans Pelicans L",
-        "Portland Trail Blazers L",
-        "Indiana Pacers L",
-        "Toronto Raptors W"
+        {
+          "team": "Oklahoma City Thunder",
+          "wl": "W",
+          "earned": 44
+        },
+        {
+          "team": "Denver Nuggets",
+          "wl": "W",
+          "earned": 0
+        },
+        {
+          "team": "New Orleans Pelicans",
+          "wl": "L",
+          "earned": 42
+        },
+        {
+          "team": "Portland Trail Blazers",
+          "wl": "L",
+          "earned": 30
+        },
+        {
+          "team": "Indiana Pacers",
+          "wl": "L",
+          "earned": 43
+        },
+        {
+          "team": "Toronto Raptors",
+          "wl": "W",
+          "earned": 34
+        }
       ],
       "total": 193,
       "series": [
@@ -188,12 +236,36 @@
       "name": "Nay",
       "color": "#8bd200",
       "picks": [
-        "Brooklyn Nets L",
-        "New York Knicks W",
-        "Phoenix Suns L",
-        "Detroit Pistons W",
-        "Los Angeles Clippers W",
-        "Philadelphia 76ers W"
+        {
+          "team": "Brooklyn Nets",
+          "wl": "L",
+          "earned": 41
+        },
+        {
+          "team": "New York Knicks",
+          "wl": "W",
+          "earned": 38
+        },
+        {
+          "team": "Phoenix Suns",
+          "wl": "L",
+          "earned": 25
+        },
+        {
+          "team": "Detroit Pistons",
+          "wl": "W",
+          "earned": 42
+        },
+        {
+          "team": "LA Clippers",
+          "wl": "W",
+          "earned": 27
+        },
+        {
+          "team": "Philadelphia 76ers",
+          "wl": "W",
+          "earned": 31
+        }
       ],
       "total": 204,
       "series": [
@@ -279,12 +351,36 @@
       "name": "Tom",
       "color": "#2b54ff",
       "picks": [
-        "Washington Wizards L",
-        "Houston Rockets W",
-        "Golden State Warriors W",
-        "Atlanta Hawks L",
-        "Dallas Mavericks L",
-        "Boston Celtics L"
+        {
+          "team": "Washington Wizards",
+          "wl": "L",
+          "earned": 40
+        },
+        {
+          "team": "Houston Rockets",
+          "wl": "W",
+          "earned": 34
+        },
+        {
+          "team": "Golden State Warriors",
+          "wl": "W",
+          "earned": 30
+        },
+        {
+          "team": "Atlanta Hawks",
+          "wl": "L",
+          "earned": 31
+        },
+        {
+          "team": "Dallas Mavericks",
+          "wl": "L",
+          "earned": 36
+        },
+        {
+          "team": "Boston Celtics",
+          "wl": "L",
+          "earned": 19
+        }
       ],
       "total": 190,
       "series": [
@@ -370,12 +466,36 @@
       "name": "Jack",
       "color": "#ff2a4f",
       "picks": [
-        "Charlotte Hornets L",
-        "Cleveland Cavaliers W",
-        "San Antonio Spurs W",
-        "Minnesota Timberwolves W",
-        "Los Angeles Lakers W",
-        "Memphis Grizzlies W"
+        {
+          "team": "Charlotte Hornets",
+          "wl": "L",
+          "earned": 31
+        },
+        {
+          "team": "Cleveland Cavaliers",
+          "wl": "W",
+          "earned": 36
+        },
+        {
+          "team": "San Antonio Spurs",
+          "wl": "W",
+          "earned": 40
+        },
+        {
+          "team": "Minnesota Timberwolves",
+          "wl": "W",
+          "earned": 35
+        },
+        {
+          "team": "Los Angeles Lakers",
+          "wl": "W",
+          "earned": 34
+        },
+        {
+          "team": "Memphis Grizzlies",
+          "wl": "W",
+          "earned": 21
+        }
       ],
       "total": 197,
       "series": [
@@ -458,5 +578,5 @@
       ]
     }
   ],
-  "generatedAt": "2026-02-23T04:36:08.314Z"
+  "generatedAt": "2026-02-23T05:16:37.701Z"
 }
