@@ -105,6 +105,7 @@ let seasonStart = new Date("2025-10-21T00:00:00");
 let today = new Date();
 let todayISO = today.toISOString().slice(0, 10);
 let asOfDate = todayISO;
+let generatedAt = null;
 
 function hashSeed(input) {
   let hash = 0;
@@ -419,6 +420,18 @@ function renderMeta() {
 
   const range = document.getElementById("date-range");
   range.textContent = `Season start ${seasonStart.toISOString().slice(0, 10)} → ${asOfDate}`;
+
+  const updated = document.getElementById("updated-at");
+  if (updated) {
+    updated.textContent = generatedAt
+      ? `Updated ${new Date(generatedAt).toLocaleString()}`
+      : "Updated —";
+  }
+
+  const asOfInline = document.getElementById("as-of-inline");
+  if (asOfInline) {
+    asOfInline.textContent = `As of ${asOfDate}`;
+  }
 }
 
 function renderAll() {
@@ -443,6 +456,9 @@ async function loadData() {
     }
     if (data.asOf) {
       asOfDate = data.asOf;
+    }
+    if (data.generatedAt) {
+      generatedAt = data.generatedAt;
     }
   } catch (error) {
     people = [...fallbackPeople];
