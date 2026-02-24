@@ -1,6 +1,6 @@
 {
   "seasonStart": "2025-10-21",
-  "asOf": "2026-02-23",
+  "asOf": "2026-02-24",
   "people": [
     {
       "name": "John",
@@ -9,7 +9,7 @@
         {
           "team": "Utah Jazz",
           "wl": "L",
-          "earned": 39
+          "earned": 40
         },
         {
           "team": "Orlando Magic",
@@ -37,7 +37,7 @@
           "earned": 27
         }
       ],
-      "total": 200,
+      "total": 201,
       "series": [
         {
           "date": "2025-10-21",
@@ -112,8 +112,8 @@
           "total": 191
         },
         {
-          "date": "2026-02-23",
-          "total": 200
+          "date": "2026-02-24",
+          "total": 201
         }
       ]
     },
@@ -227,7 +227,7 @@
           "total": 184
         },
         {
-          "date": "2026-02-23",
+          "date": "2026-02-24",
           "total": 193
         }
       ]
@@ -257,7 +257,7 @@
           "earned": 42
         },
         {
-          "team": "Los Angeles Clippers",
+          "team": "LA Clippers",
           "wl": "W",
           "earned": 27
         },
@@ -342,7 +342,7 @@
           "total": 193
         },
         {
-          "date": "2026-02-23",
+          "date": "2026-02-24",
           "total": 204
         }
       ]
@@ -359,7 +359,7 @@
         {
           "team": "Houston Rockets",
           "wl": "W",
-          "earned": 34
+          "earned": 35
         },
         {
           "team": "Golden State Warriors",
@@ -382,7 +382,7 @@
           "earned": 19
         }
       ],
-      "total": 190,
+      "total": 191,
       "series": [
         {
           "date": "2025-10-21",
@@ -457,8 +457,8 @@
           "total": 185
         },
         {
-          "date": "2026-02-23",
-          "total": 190
+          "date": "2026-02-24",
+          "total": 191
         }
       ]
     },
@@ -479,7 +479,7 @@
         {
           "team": "San Antonio Spurs",
           "wl": "W",
-          "earned": 40
+          "earned": 41
         },
         {
           "team": "Minnesota Timberwolves",
@@ -497,7 +497,7 @@
           "earned": 21
         }
       ],
-      "total": 197,
+      "total": 198,
       "series": [
         {
           "date": "2025-10-21",
@@ -572,11 +572,11 @@
           "total": 188
         },
         {
-          "date": "2026-02-23",
-          "total": 197
+          "date": "2026-02-24",
+          "total": 198
         }
       ]
     }
   ],
-  "generatedAt": "2026-02-23T15:12:25.789Z"
+  "generatedAt": "2026-02-24T15:15:38.297Z"
 }
