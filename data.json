@@ -1,6 +1,6 @@
 {
   "seasonStart": "2025-10-21",
-  "asOf": "2026-02-26",
+  "asOf": "2026-02-27",
   "people": [
     {
       "name": "John",
@@ -9,7 +9,7 @@
         {
           "team": "Utah Jazz",
           "wl": "L",
-          "earned": 40
+          "earned": 41
         },
         {
           "team": "Orlando Magic",
@@ -29,15 +29,15 @@
         {
           "team": "Chicago Bulls",
           "wl": "L",
-          "earned": 35
+          "earned": 36
         },
         {
           "team": "Miami Heat",
           "wl": "L",
-          "earned": 28
+          "earned": 29
         }
       ],
-      "total": 207,
+      "total": 210,
       "series": [
         {
           "date": "2025-10-21",
@@ -116,8 +116,8 @@
           "total": 205
         },
         {
-          "date": "2026-02-26",
-          "total": 207
+          "date": "2026-02-27",
+          "total": 210
         }
       ]
     },
@@ -148,7 +148,7 @@
         {
           "team": "Indiana Pacers",
           "wl": "L",
-          "earned": 44
+          "earned": 45
         },
         {
           "team": "Toronto Raptors",
@@ -156,7 +156,7 @@
           "earned": 34
         }
       ],
-      "total": 196,
+      "total": 197,
       "series": [
         {
           "date": "2025-10-21",
@@ -235,8 +235,8 @@
           "total": 196
         },
         {
-          "date": "2026-02-26",
-          "total": 196
+          "date": "2026-02-27",
+          "total": 197
         }
       ]
     },
@@ -247,7 +247,7 @@
         {
           "team": "Brooklyn Nets",
           "wl": "L",
-          "earned": 42
+          "earned": 43
         },
         {
           "team": "New York Knicks",
@@ -265,17 +265,17 @@
           "earned": 43
         },
         {
-          "team": "LA Clippers",
+          "team": "Los Angeles Clippers",
           "wl": "W",
           "earned": 27
         },
         {
           "team": "Philadelphia 76ers",
           "wl": "W",
-          "earned": 32
+          "earned": 33
         }
       ],
-      "total": 208,
+      "total": 210,
       "series": [
         {
           "date": "2025-10-21",
@@ -354,8 +354,8 @@
           "total": 207
         },
         {
-          "date": "2026-02-26",
-          "total": 208
+          "date": "2026-02-27",
+          "total": 210
         }
       ]
     },
@@ -366,12 +366,12 @@
         {
           "team": "Washington Wizards",
           "wl": "L",
-          "earned": 41
+          "earned": 42
         },
         {
           "team": "Houston Rockets",
           "wl": "W",
-          "earned": 36
+          "earned": 37
         },
         {
           "team": "Golden State Warriors",
@@ -386,7 +386,7 @@
         {
           "team": "Dallas Mavericks",
           "wl": "L",
-          "earned": 36
+          "earned": 37
         },
         {
           "team": "Boston Celtics",
@@ -394,7 +394,7 @@
           "earned": 20
         }
       ],
-      "total": 195,
+      "total": 198,
       "series": [
         {
           "date": "2025-10-21",
@@ -473,8 +473,8 @@
           "total": 192
         },
         {
-          "date": "2026-02-26",
-          "total": 195
+          "date": "2026-02-27",
+          "total": 198
         }
       ]
     },
@@ -495,12 +495,12 @@
         {
           "team": "San Antonio Spurs",
           "wl": "W",
-          "earned": 42
+          "earned": 43
         },
         {
           "team": "Minnesota Timberwolves",
           "wl": "W",
-          "earned": 36
+          "earned": 37
         },
         {
           "team": "Los Angeles Lakers",
@@ -513,7 +513,7 @@
           "earned": 21
         }
       ],
-      "total": 201,
+      "total": 203,
       "series": [
         {
           "date": "2025-10-21",
@@ -592,11 +592,11 @@
           "total": 200
         },
         {
-          "date": "2026-02-26",
-          "total": 201
+          "date": "2026-02-27",
+          "total": 203
         }
       ]
     }
   ],
-  "generatedAt": "2026-02-26T15:11:15.697Z"
+  "generatedAt": "2026-02-27T14:31:03.153Z"
 }
