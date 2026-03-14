@@ -1,6 +1,6 @@
 {
   "seasonStart": "2025-10-21",
-  "asOf": "2026-03-13",
+  "asOf": "2026-03-14",
   "people": [
     {
       "name": "John",
@@ -9,7 +9,7 @@
         {
           "team": "Utah Jazz",
           "wl": "L",
-          "earned": 46
+          "earned": 47
         },
         {
           "team": "Orlando Magic",
@@ -29,7 +29,7 @@
         {
           "team": "Chicago Bulls",
           "wl": "L",
-          "earned": 39
+          "earned": 40
         },
         {
           "team": "Miami Heat",
@@ -37,7 +37,7 @@
           "earned": 29
         }
       ],
-      "total": 229,
+      "total": 231,
       "series": [
         {
           "date": "2025-10-21",
@@ -124,8 +124,8 @@
           "total": 224
         },
         {
-          "date": "2026-03-13",
-          "total": 229
+          "date": "2026-03-14",
+          "total": 231
         }
       ]
     },
@@ -146,7 +146,7 @@
         {
           "team": "New Orleans Pelicans",
           "wl": "L",
-          "earned": 45
+          "earned": 46
         },
         {
           "team": "Portland Trail Blazers",
@@ -156,15 +156,15 @@
         {
           "team": "Indiana Pacers",
           "wl": "L",
-          "earned": 51
+          "earned": 52
         },
         {
           "team": "Toronto Raptors",
           "wl": "W",
-          "earned": 36
+          "earned": 37
         }
       ],
-      "total": 219,
+      "total": 222,
       "series": [
         {
           "date": "2025-10-21",
@@ -251,8 +251,8 @@
           "total": 217
         },
         {
-          "date": "2026-03-13",
-          "total": 219
+          "date": "2026-03-14",
+          "total": 222
         }
       ]
     },
@@ -268,22 +268,22 @@
         {
           "team": "New York Knicks",
           "wl": "W",
-          "earned": 43
+          "earned": 44
         },
         {
           "team": "Phoenix Suns",
           "wl": "L",
-          "earned": 27
+          "earned": 28
         },
         {
           "team": "Detroit Pistons",
           "wl": "W",
-          "earned": 47
+          "earned": 48
         },
         {
-          "team": "Los Angeles Clippers",
+          "team": "LA Clippers",
           "wl": "W",
-          "earned": 33
+          "earned": 34
         },
         {
           "team": "Philadelphia 76ers",
@@ -291,7 +291,7 @@
           "earned": 35
         }
       ],
-      "total": 234,
+      "total": 238,
       "series": [
         {
           "date": "2025-10-21",
@@ -378,8 +378,8 @@
           "total": 230
         },
         {
-          "date": "2026-03-13",
-          "total": 234
+          "date": "2026-03-14",
+          "total": 238
         }
       ]
     },
@@ -395,7 +395,7 @@
         {
           "team": "Houston Rockets",
           "wl": "W",
-          "earned": 40
+          "earned": 41
         },
         {
           "team": "Golden State Warriors",
@@ -410,7 +410,7 @@
         {
           "team": "Dallas Mavericks",
           "wl": "L",
-          "earned": 44
+          "earned": 45
         },
         {
           "team": "Boston Celtics",
@@ -418,7 +418,7 @@
           "earned": 23
         }
       ],
-      "total": 219,
+      "total": 221,
       "series": [
         {
           "date": "2025-10-21",
@@ -505,8 +505,8 @@
           "total": 217
         },
         {
-          "date": "2026-03-13",
-          "total": 219
+          "date": "2026-03-14",
+          "total": 221
         }
       ]
     },
@@ -522,7 +522,7 @@
         {
           "team": "Cleveland Cavaliers",
           "wl": "W",
-          "earned": 40
+          "earned": 41
         },
         {
           "team": "San Antonio Spurs",
@@ -532,7 +532,7 @@
         {
           "team": "Minnesota Timberwolves",
           "wl": "W",
-          "earned": 40
+          "earned": 41
         },
         {
           "team": "Los Angeles Lakers",
@@ -545,7 +545,7 @@
           "earned": 23
         }
       ],
-      "total": 225,
+      "total": 227,
       "series": [
         {
           "date": "2025-10-21",
@@ -632,11 +632,11 @@
           "total": 224
         },
         {
-          "date": "2026-03-13",
-          "total": 225
+          "date": "2026-03-14",
+          "total": 227
         }
       ]
     }
   ],
-  "generatedAt": "2026-03-13T14:35:01.094Z"
+  "generatedAt": "2026-03-14T14:01:58.278Z"
 }
