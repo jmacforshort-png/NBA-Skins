@@ -1,6 +1,6 @@
 {
   "seasonStart": "2025-10-21",
-  "asOf": "2026-04-03",
+  "asOf": "2026-04-04",
   "people": [
     {
       "name": "John",
@@ -9,12 +9,12 @@
         {
           "team": "Utah Jazz",
           "wl": "L",
-          "earned": 56
+          "earned": 57
         },
         {
           "team": "Orlando Magic",
           "wl": "W",
-          "earned": 40
+          "earned": 41
         },
         {
           "team": "Sacramento Kings",
@@ -29,7 +29,7 @@
         {
           "team": "Chicago Bulls",
           "wl": "L",
-          "earned": 47
+          "earned": 48
         },
         {
           "team": "Miami Heat",
@@ -37,7 +37,7 @@
           "earned": 37
         }
       ],
-      "total": 267,
+      "total": 270,
       "series": [
         {
           "date": "2025-10-21",
@@ -136,8 +136,8 @@
           "total": 264
         },
         {
-          "date": "2026-04-03",
-          "total": 267
+          "date": "2026-04-04",
+          "total": 270
         }
       ]
     },
@@ -158,7 +158,7 @@
         {
           "team": "New Orleans Pelicans",
           "wl": "L",
-          "earned": 52
+          "earned": 53
         },
         {
           "team": "Portland Trail Blazers",
@@ -168,15 +168,15 @@
         {
           "team": "Indiana Pacers",
           "wl": "L",
-          "earned": 58
+          "earned": 59
         },
         {
           "team": "Toronto Raptors",
           "wl": "W",
-          "earned": 42
+          "earned": 43
         }
       ],
-      "total": 251,
+      "total": 254,
       "series": [
         {
           "date": "2025-10-21",
@@ -275,8 +275,8 @@
           "total": 249
         },
         {
-          "date": "2026-04-03",
-          "total": 251
+          "date": "2026-04-04",
+          "total": 254
         }
       ]
     },
@@ -287,12 +287,12 @@
         {
           "team": "Brooklyn Nets",
           "wl": "L",
-          "earned": 58
+          "earned": 59
         },
         {
           "team": "New York Knicks",
           "wl": "W",
-          "earned": 50
+          "earned": 51
         },
         {
           "team": "Phoenix Suns",
@@ -305,17 +305,17 @@
           "earned": 56
         },
         {
-          "team": "LA Clippers",
+          "team": "Los Angeles Clippers",
           "wl": "W",
           "earned": 39
         },
         {
           "team": "Philadelphia 76ers",
           "wl": "W",
-          "earned": 42
+          "earned": 43
         }
       ],
-      "total": 280,
+      "total": 283,
       "series": [
         {
           "date": "2025-10-21",
@@ -414,8 +414,8 @@
           "total": 276
         },
         {
-          "date": "2026-04-03",
-          "total": 280
+          "date": "2026-04-04",
+          "total": 283
         }
       ]
     },
@@ -431,7 +431,7 @@
         {
           "team": "Houston Rockets",
           "wl": "W",
-          "earned": 47
+          "earned": 48
         },
         {
           "team": "Golden State Warriors",
@@ -446,7 +446,7 @@
         {
           "team": "Dallas Mavericks",
           "wl": "L",
-          "earned": 52
+          "earned": 53
         },
         {
           "team": "Boston Celtics",
@@ -454,7 +454,7 @@
           "earned": 25
         }
       ],
-      "total": 252,
+      "total": 254,
       "series": [
         {
           "date": "2025-10-21",
@@ -553,8 +553,8 @@
           "total": 250
         },
         {
-          "date": "2026-04-03",
-          "total": 252
+          "date": "2026-04-04",
+          "total": 254
         }
       ]
     },
@@ -692,11 +692,11 @@
           "total": 261
         },
         {
-          "date": "2026-04-03",
+          "date": "2026-04-04",
           "total": 264
         }
       ]
     }
   ],
-  "generatedAt": "2026-04-03T13:40:28.207Z"
+  "generatedAt": "2026-04-04T13:22:57.951Z"
 }
