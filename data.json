@@ -1,6 +1,6 @@
 {
   "seasonStart": "2025-10-21",
-  "asOf": "2026-04-15",
+  "asOf": "2026-04-16",
   "people": [
     {
       "name": "John",
@@ -144,7 +144,7 @@
           "total": 288
         },
         {
-          "date": "2026-04-15",
+          "date": "2026-04-16",
           "total": 288
         }
       ]
@@ -291,7 +291,7 @@
           "total": 269
         },
         {
-          "date": "2026-04-15",
+          "date": "2026-04-16",
           "total": 269
         }
       ]
@@ -321,17 +321,17 @@
           "earned": 60
         },
         {
-          "team": "LA Clippers",
+          "team": "Los Angeles Clippers",
           "wl": "W",
           "earned": 42
         },
         {
           "team": "Philadelphia 76ers",
           "wl": "W",
-          "earned": 45
+          "earned": 46
         }
       ],
-      "total": 301,
+      "total": 302,
       "series": [
         {
           "date": "2025-10-21",
@@ -438,8 +438,8 @@
           "total": 301
         },
         {
-          "date": "2026-04-15",
-          "total": 301
+          "date": "2026-04-16",
+          "total": 302
         }
       ]
     },
@@ -460,7 +460,7 @@
         {
           "team": "Golden State Warriors",
           "wl": "W",
-          "earned": 37
+          "earned": 38
         },
         {
           "team": "Atlanta Hawks",
@@ -478,7 +478,7 @@
           "earned": 26
         }
       ],
-      "total": 272,
+      "total": 273,
       "series": [
         {
           "date": "2025-10-21",
@@ -585,8 +585,8 @@
           "total": 272
         },
         {
-          "date": "2026-04-15",
-          "total": 272
+          "date": "2026-04-16",
+          "total": 273
         }
       ]
     },
@@ -732,11 +732,11 @@
           "total": 279
         },
         {
-          "date": "2026-04-15",
+          "date": "2026-04-16",
           "total": 279
         }
       ]
     }
   ],
-  "generatedAt": "2026-04-15T14:07:57.587Z"
+  "generatedAt": "2026-04-16T14:16:54.017Z"
 }
