@@ -1,6 +1,6 @@
 {
   "seasonStart": "2025-10-21",
-  "asOf": "2026-04-17",
+  "asOf": "2026-04-18",
   "people": [
     {
       "name": "John",
@@ -14,7 +14,7 @@
         {
           "team": "Orlando Magic",
           "wl": "W",
-          "earned": 45
+          "earned": 46
         },
         {
           "team": "Sacramento Kings",
@@ -37,7 +37,7 @@
           "earned": 40
         }
       ],
-      "total": 288,
+      "total": 289,
       "series": [
         {
           "date": "2025-10-21",
@@ -144,8 +144,8 @@
           "total": 288
         },
         {
-          "date": "2026-04-17",
-          "total": 288
+          "date": "2026-04-18",
+          "total": 289
         }
       ]
     },
@@ -291,7 +291,7 @@
           "total": 269
         },
         {
-          "date": "2026-04-17",
+          "date": "2026-04-18",
           "total": 269
         }
       ]
@@ -321,7 +321,7 @@
           "earned": 60
         },
         {
-          "team": "LA Clippers",
+          "team": "Los Angeles Clippers",
           "wl": "W",
           "earned": 42
         },
@@ -438,7 +438,7 @@
           "total": 301
         },
         {
-          "date": "2026-04-17",
+          "date": "2026-04-18",
           "total": 302
         }
       ]
@@ -585,7 +585,7 @@
           "total": 272
         },
         {
-          "date": "2026-04-17",
+          "date": "2026-04-18",
           "total": 273
         }
       ]
@@ -597,7 +597,7 @@
         {
           "team": "Charlotte Hornets",
           "wl": "L",
-          "earned": 38
+          "earned": 39
         },
         {
           "team": "Cleveland Cavaliers",
@@ -625,7 +625,7 @@
           "earned": 25
         }
       ],
-      "total": 279,
+      "total": 280,
       "series": [
         {
           "date": "2025-10-21",
@@ -732,11 +732,11 @@
           "total": 279
         },
         {
-          "date": "2026-04-17",
-          "total": 279
+          "date": "2026-04-18",
+          "total": 280
         }
       ]
     }
   ],
-  "generatedAt": "2026-04-17T14:01:15.906Z"
+  "generatedAt": "2026-04-18T13:38:48.537Z"
 }
