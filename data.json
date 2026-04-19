@@ -1,6 +1,6 @@
 {
   "seasonStart": "2025-10-21",
-  "asOf": "2026-04-18",
+  "asOf": "2026-04-19",
   "people": [
     {
       "name": "John",
@@ -144,7 +144,7 @@
           "total": 288
         },
         {
-          "date": "2026-04-18",
+          "date": "2026-04-19",
           "total": 289
         }
       ]
@@ -291,7 +291,7 @@
           "total": 269
         },
         {
-          "date": "2026-04-18",
+          "date": "2026-04-19",
           "total": 269
         }
       ]
@@ -308,7 +308,7 @@
         {
           "team": "New York Knicks",
           "wl": "W",
-          "earned": 54
+          "earned": 55
         },
         {
           "team": "Phoenix Suns",
@@ -321,7 +321,7 @@
           "earned": 60
         },
         {
-          "team": "Los Angeles Clippers",
+          "team": "LA Clippers",
           "wl": "W",
           "earned": 42
         },
@@ -331,7 +331,7 @@
           "earned": 46
         }
       ],
-      "total": 302,
+      "total": 303,
       "series": [
         {
           "date": "2025-10-21",
@@ -438,8 +438,8 @@
           "total": 301
         },
         {
-          "date": "2026-04-18",
-          "total": 302
+          "date": "2026-04-19",
+          "total": 303
         }
       ]
     },
@@ -465,7 +465,7 @@
         {
           "team": "Atlanta Hawks",
           "wl": "L",
-          "earned": 36
+          "earned": 37
         },
         {
           "team": "Dallas Mavericks",
@@ -478,7 +478,7 @@
           "earned": 26
         }
       ],
-      "total": 273,
+      "total": 274,
       "series": [
         {
           "date": "2025-10-21",
@@ -585,8 +585,8 @@
           "total": 272
         },
         {
-          "date": "2026-04-18",
-          "total": 273
+          "date": "2026-04-19",
+          "total": 274
         }
       ]
     },
@@ -602,7 +602,7 @@
         {
           "team": "Cleveland Cavaliers",
           "wl": "W",
-          "earned": 52
+          "earned": 53
         },
         {
           "team": "San Antonio Spurs",
@@ -617,7 +617,7 @@
         {
           "team": "Los Angeles Lakers",
           "wl": "W",
-          "earned": 53
+          "earned": 54
         },
         {
           "team": "Memphis Grizzlies",
@@ -625,7 +625,7 @@
           "earned": 25
         }
       ],
-      "total": 280,
+      "total": 282,
       "series": [
         {
           "date": "2025-10-21",
@@ -732,11 +732,11 @@
           "total": 279
         },
         {
-          "date": "2026-04-18",
-          "total": 280
+          "date": "2026-04-19",
+          "total": 282
         }
       ]
     }
   ],
-  "generatedAt": "2026-04-18T13:38:48.537Z"
+  "generatedAt": "2026-04-19T13:37:17.711Z"
 }
