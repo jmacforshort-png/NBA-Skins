@@ -1,6 +1,6 @@
 {
   "seasonStart": "2025-10-21",
-  "asOf": "2026-04-27",
+  "asOf": "2026-04-29",
   "people": [
     {
       "name": "John",
@@ -14,7 +14,7 @@
         {
           "team": "Orlando Magic",
           "wl": "W",
-          "earned": 48
+          "earned": 49
         },
         {
           "team": "Sacramento Kings",
@@ -37,7 +37,7 @@
           "earned": 40
         }
       ],
-      "total": 291,
+      "total": 292,
       "series": [
         {
           "date": "2025-10-21",
@@ -148,8 +148,12 @@
           "total": 290
         },
         {
-          "date": "2026-04-27",
-          "total": 291
+          "date": "2026-04-28",
+          "total": 292
+        },
+        {
+          "date": "2026-04-29",
+          "total": 292
         }
       ]
     },
@@ -160,7 +164,7 @@
         {
           "team": "Oklahoma City Thunder",
           "wl": "W",
-          "earned": 67
+          "earned": 68
         },
         {
           "team": "Denver Nuggets",
@@ -175,7 +179,7 @@
         {
           "team": "Portland Trail Blazers",
           "wl": "L",
-          "earned": 43
+          "earned": 44
         },
         {
           "team": "Indiana Pacers",
@@ -188,7 +192,7 @@
           "earned": 48
         }
       ],
-      "total": 277,
+      "total": 279,
       "series": [
         {
           "date": "2025-10-21",
@@ -299,8 +303,12 @@
           "total": 271
         },
         {
-          "date": "2026-04-27",
-          "total": 277
+          "date": "2026-04-28",
+          "total": 279
+        },
+        {
+          "date": "2026-04-29",
+          "total": 279
         }
       ]
     },
@@ -316,12 +324,12 @@
         {
           "team": "New York Knicks",
           "wl": "W",
-          "earned": 56
+          "earned": 57
         },
         {
           "team": "Phoenix Suns",
           "wl": "L",
-          "earned": 41
+          "earned": 42
         },
         {
           "team": "Detroit Pistons",
@@ -329,17 +337,17 @@
           "earned": 61
         },
         {
-          "team": "LA Clippers",
+          "team": "Los Angeles Clippers",
           "wl": "W",
           "earned": 42
         },
         {
           "team": "Philadelphia 76ers",
           "wl": "W",
-          "earned": 47
+          "earned": 48
         }
       ],
-      "total": 309,
+      "total": 312,
       "series": [
         {
           "date": "2025-10-21",
@@ -450,8 +458,12 @@
           "total": 305
         },
         {
-          "date": "2026-04-27",
-          "total": 309
+          "date": "2026-04-28",
+          "total": 312
+        },
+        {
+          "date": "2026-04-29",
+          "total": 312
         }
       ]
     },
@@ -477,7 +489,7 @@
         {
           "team": "Atlanta Hawks",
           "wl": "L",
-          "earned": 38
+          "earned": 39
         },
         {
           "team": "Dallas Mavericks",
@@ -487,10 +499,10 @@
         {
           "team": "Boston Celtics",
           "wl": "L",
-          "earned": 27
+          "earned": 28
         }
       ],
-      "total": 277,
+      "total": 279,
       "series": [
         {
           "date": "2025-10-21",
@@ -601,8 +613,12 @@
           "total": 275
         },
         {
-          "date": "2026-04-27",
-          "total": 277
+          "date": "2026-04-28",
+          "total": 279
+        },
+        {
+          "date": "2026-04-29",
+          "total": 279
         }
       ]
     },
@@ -623,7 +639,7 @@
         {
           "team": "San Antonio Spurs",
           "wl": "W",
-          "earned": 65
+          "earned": 66
         },
         {
           "team": "Minnesota Timberwolves",
@@ -641,7 +657,7 @@
           "earned": 25
         }
       ],
-      "total": 291,
+      "total": 292,
       "series": [
         {
           "date": "2025-10-21",
@@ -752,11 +768,15 @@
           "total": 286
         },
         {
-          "date": "2026-04-27",
-          "total": 291
+          "date": "2026-04-28",
+          "total": 292
+        },
+        {
+          "date": "2026-04-29",
+          "total": 292
         }
       ]
     }
   ],
-  "generatedAt": "2026-04-27T14:29:35.477Z"
+  "generatedAt": "2026-04-29T14:33:28.220Z"
 }
