@@ -1,6 +1,6 @@
 {
   "seasonStart": "2025-10-21",
-  "asOf": "2026-04-29",
+  "asOf": "2026-04-30",
   "people": [
     {
       "name": "John",
@@ -152,7 +152,7 @@
           "total": 292
         },
         {
-          "date": "2026-04-29",
+          "date": "2026-04-30",
           "total": 292
         }
       ]
@@ -307,7 +307,7 @@
           "total": 279
         },
         {
-          "date": "2026-04-29",
+          "date": "2026-04-30",
           "total": 279
         }
       ]
@@ -334,10 +334,10 @@
         {
           "team": "Detroit Pistons",
           "wl": "W",
-          "earned": 61
+          "earned": 62
         },
         {
-          "team": "Los Angeles Clippers",
+          "team": "LA Clippers",
           "wl": "W",
           "earned": 42
         },
@@ -347,7 +347,7 @@
           "earned": 48
         }
       ],
-      "total": 312,
+      "total": 313,
       "series": [
         {
           "date": "2025-10-21",
@@ -462,8 +462,8 @@
           "total": 312
         },
         {
-          "date": "2026-04-29",
-          "total": 312
+          "date": "2026-04-30",
+          "total": 313
         }
       ]
     },
@@ -479,7 +479,7 @@
         {
           "team": "Houston Rockets",
           "wl": "W",
-          "earned": 53
+          "earned": 54
         },
         {
           "team": "Golden State Warriors",
@@ -502,7 +502,7 @@
           "earned": 28
         }
       ],
-      "total": 279,
+      "total": 280,
       "series": [
         {
           "date": "2025-10-21",
@@ -617,8 +617,8 @@
           "total": 279
         },
         {
-          "date": "2026-04-29",
-          "total": 279
+          "date": "2026-04-30",
+          "total": 280
         }
       ]
     },
@@ -634,7 +634,7 @@
         {
           "team": "Cleveland Cavaliers",
           "wl": "W",
-          "earned": 54
+          "earned": 55
         },
         {
           "team": "San Antonio Spurs",
@@ -657,7 +657,7 @@
           "earned": 25
         }
       ],
-      "total": 292,
+      "total": 293,
       "series": [
         {
           "date": "2025-10-21",
@@ -772,11 +772,11 @@
           "total": 292
         },
         {
-          "date": "2026-04-29",
-          "total": 292
+          "date": "2026-04-30",
+          "total": 293
         }
       ]
     }
   ],
-  "generatedAt": "2026-04-29T14:33:28.220Z"
+  "generatedAt": "2026-04-30T14:26:50.132Z"
 }
