@@ -1,6 +1,6 @@
 {
   "seasonStart": "2025-10-21",
-  "asOf": "2026-05-01",
+  "asOf": "2026-05-02",
   "people": [
     {
       "name": "John",
@@ -152,7 +152,7 @@
           "total": 292
         },
         {
-          "date": "2026-05-01",
+          "date": "2026-05-02",
           "total": 292
         }
       ]
@@ -189,10 +189,10 @@
         {
           "team": "Toronto Raptors",
           "wl": "W",
-          "earned": 48
+          "earned": 49
         }
       ],
-      "total": 279,
+      "total": 280,
       "series": [
         {
           "date": "2025-10-21",
@@ -307,8 +307,8 @@
           "total": 279
         },
         {
-          "date": "2026-05-01",
-          "total": 279
+          "date": "2026-05-02",
+          "total": 280
         }
       ]
     },
@@ -334,10 +334,10 @@
         {
           "team": "Detroit Pistons",
           "wl": "W",
-          "earned": 62
+          "earned": 63
         },
         {
-          "team": "Los Angeles Clippers",
+          "team": "LA Clippers",
           "wl": "W",
           "earned": 42
         },
@@ -347,7 +347,7 @@
           "earned": 49
         }
       ],
-      "total": 315,
+      "total": 316,
       "series": [
         {
           "date": "2025-10-21",
@@ -462,8 +462,8 @@
           "total": 312
         },
         {
-          "date": "2026-05-01",
-          "total": 315
+          "date": "2026-05-02",
+          "total": 316
         }
       ]
     },
@@ -617,7 +617,7 @@
           "total": 279
         },
         {
-          "date": "2026-05-01",
+          "date": "2026-05-02",
           "total": 282
         }
       ]
@@ -649,7 +649,7 @@
         {
           "team": "Los Angeles Lakers",
           "wl": "W",
-          "earned": 56
+          "earned": 57
         },
         {
           "team": "Memphis Grizzlies",
@@ -657,7 +657,7 @@
           "earned": 25
         }
       ],
-      "total": 294,
+      "total": 295,
       "series": [
         {
           "date": "2025-10-21",
@@ -772,11 +772,11 @@
           "total": 292
         },
         {
-          "date": "2026-05-01",
-          "total": 294
+          "date": "2026-05-02",
+          "total": 295
         }
       ]
     }
   ],
-  "generatedAt": "2026-05-01T13:57:14.517Z"
+  "generatedAt": "2026-05-02T13:51:24.227Z"
 }
