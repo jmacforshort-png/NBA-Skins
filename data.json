@@ -1,6 +1,6 @@
 {
   "seasonStart": "2025-10-21",
-  "asOf": "2026-05-07",
+  "asOf": "2026-05-08",
   "people": [
     {
       "name": "John",
@@ -156,7 +156,7 @@
           "total": 292
         },
         {
-          "date": "2026-05-07",
+          "date": "2026-05-08",
           "total": 292
         }
       ]
@@ -168,7 +168,7 @@
         {
           "team": "Oklahoma City Thunder",
           "wl": "W",
-          "earned": 69
+          "earned": 70
         },
         {
           "team": "Denver Nuggets",
@@ -196,7 +196,7 @@
           "earned": 49
         }
       ],
-      "total": 281,
+      "total": 282,
       "series": [
         {
           "date": "2025-10-21",
@@ -315,8 +315,8 @@
           "total": 281
         },
         {
-          "date": "2026-05-07",
-          "total": 281
+          "date": "2026-05-08",
+          "total": 282
         }
       ]
     },
@@ -342,10 +342,10 @@
         {
           "team": "Detroit Pistons",
           "wl": "W",
-          "earned": 65
+          "earned": 66
         },
         {
-          "team": "Los Angeles Clippers",
+          "team": "LA Clippers",
           "wl": "W",
           "earned": 42
         },
@@ -355,7 +355,7 @@
           "earned": 50
         }
       ],
-      "total": 321,
+      "total": 322,
       "series": [
         {
           "date": "2025-10-21",
@@ -474,8 +474,8 @@
           "total": 320
         },
         {
-          "date": "2026-05-07",
-          "total": 321
+          "date": "2026-05-08",
+          "total": 322
         }
       ]
     },
@@ -633,7 +633,7 @@
           "total": 283
         },
         {
-          "date": "2026-05-07",
+          "date": "2026-05-08",
           "total": 283
         }
       ]
@@ -792,11 +792,11 @@
           "total": 297
         },
         {
-          "date": "2026-05-07",
+          "date": "2026-05-08",
           "total": 298
         }
       ]
     }
   ],
-  "generatedAt": "2026-05-07T14:52:34.666Z"
+  "generatedAt": "2026-05-08T14:19:23.155Z"
 }
