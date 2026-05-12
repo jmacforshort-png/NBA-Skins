@@ -1,6 +1,6 @@
 {
   "seasonStart": "2025-10-21",
-  "asOf": "2026-05-11",
+  "asOf": "2026-05-12",
   "people": [
     {
       "name": "John",
@@ -156,7 +156,7 @@
           "total": 292
         },
         {
-          "date": "2026-05-11",
+          "date": "2026-05-12",
           "total": 292
         }
       ]
@@ -168,7 +168,7 @@
         {
           "team": "Oklahoma City Thunder",
           "wl": "W",
-          "earned": 71
+          "earned": 72
         },
         {
           "team": "Denver Nuggets",
@@ -196,7 +196,7 @@
           "earned": 49
         }
       ],
-      "total": 283,
+      "total": 284,
       "series": [
         {
           "date": "2025-10-21",
@@ -315,8 +315,8 @@
           "total": 281
         },
         {
-          "date": "2026-05-11",
-          "total": 283
+          "date": "2026-05-12",
+          "total": 284
         }
       ]
     },
@@ -345,7 +345,7 @@
           "earned": 66
         },
         {
-          "team": "Los Angeles Clippers",
+          "team": "LA Clippers",
           "wl": "W",
           "earned": 42
         },
@@ -474,7 +474,7 @@
           "total": 320
         },
         {
-          "date": "2026-05-11",
+          "date": "2026-05-12",
           "total": 324
         }
       ]
@@ -633,7 +633,7 @@
           "total": 283
         },
         {
-          "date": "2026-05-11",
+          "date": "2026-05-12",
           "total": 283
         }
       ]
@@ -650,7 +650,7 @@
         {
           "team": "Cleveland Cavaliers",
           "wl": "W",
-          "earned": 57
+          "earned": 58
         },
         {
           "team": "San Antonio Spurs",
@@ -673,7 +673,7 @@
           "earned": 25
         }
       ],
-      "total": 301,
+      "total": 302,
       "series": [
         {
           "date": "2025-10-21",
@@ -792,11 +792,11 @@
           "total": 297
         },
         {
-          "date": "2026-05-11",
-          "total": 301
+          "date": "2026-05-12",
+          "total": 302
         }
       ]
     }
   ],
-  "generatedAt": "2026-05-11T15:38:24.221Z"
+  "generatedAt": "2026-05-12T14:53:39.603Z"
 }
