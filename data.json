@@ -1,6 +1,6 @@
 {
   "seasonStart": "2025-10-21",
-  "asOf": "2026-05-21",
+  "asOf": "2026-05-22",
   "people": [
     {
       "name": "John",
@@ -164,7 +164,7 @@
           "total": 292
         },
         {
-          "date": "2026-05-21",
+          "date": "2026-05-22",
           "total": 292
         }
       ]
@@ -331,7 +331,7 @@
           "total": 284
         },
         {
-          "date": "2026-05-21",
+          "date": "2026-05-22",
           "total": 285
         }
       ]
@@ -348,7 +348,7 @@
         {
           "team": "New York Knicks",
           "wl": "W",
-          "earned": 63
+          "earned": 64
         },
         {
           "team": "Phoenix Suns",
@@ -361,7 +361,7 @@
           "earned": 67
         },
         {
-          "team": "Los Angeles Clippers",
+          "team": "LA Clippers",
           "wl": "W",
           "earned": 42
         },
@@ -371,7 +371,7 @@
           "earned": 50
         }
       ],
-      "total": 326,
+      "total": 327,
       "series": [
         {
           "date": "2025-10-21",
@@ -498,8 +498,8 @@
           "total": 326
         },
         {
-          "date": "2026-05-21",
-          "total": 326
+          "date": "2026-05-22",
+          "total": 327
         }
       ]
     },
@@ -665,7 +665,7 @@
           "total": 283
         },
         {
-          "date": "2026-05-21",
+          "date": "2026-05-22",
           "total": 283
         }
       ]
@@ -832,11 +832,11 @@
           "total": 307
         },
         {
-          "date": "2026-05-21",
+          "date": "2026-05-22",
           "total": 307
         }
       ]
     }
   ],
-  "generatedAt": "2026-05-21T15:54:10.460Z"
+  "generatedAt": "2026-05-22T15:25:33.677Z"
 }
