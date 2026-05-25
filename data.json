@@ -1,6 +1,6 @@
 {
   "seasonStart": "2025-10-21",
-  "asOf": "2026-05-24",
+  "asOf": "2026-05-25",
   "people": [
     {
       "name": "John",
@@ -164,7 +164,7 @@
           "total": 292
         },
         {
-          "date": "2026-05-24",
+          "date": "2026-05-25",
           "total": 292
         }
       ]
@@ -331,7 +331,7 @@
           "total": 284
         },
         {
-          "date": "2026-05-24",
+          "date": "2026-05-25",
           "total": 286
         }
       ]
@@ -361,7 +361,7 @@
           "earned": 67
         },
         {
-          "team": "LA Clippers",
+          "team": "Los Angeles Clippers",
           "wl": "W",
           "earned": 42
         },
@@ -498,7 +498,7 @@
           "total": 326
         },
         {
-          "date": "2026-05-24",
+          "date": "2026-05-25",
           "total": 328
         }
       ]
@@ -665,7 +665,7 @@
           "total": 283
         },
         {
-          "date": "2026-05-24",
+          "date": "2026-05-25",
           "total": 283
         }
       ]
@@ -687,7 +687,7 @@
         {
           "team": "San Antonio Spurs",
           "wl": "W",
-          "earned": 71
+          "earned": 72
         },
         {
           "team": "Minnesota Timberwolves",
@@ -705,7 +705,7 @@
           "earned": 25
         }
       ],
-      "total": 307,
+      "total": 308,
       "series": [
         {
           "date": "2025-10-21",
@@ -832,11 +832,11 @@
           "total": 307
         },
         {
-          "date": "2026-05-24",
-          "total": 307
+          "date": "2026-05-25",
+          "total": 308
         }
       ]
     }
   ],
-  "generatedAt": "2026-05-24T14:02:28.910Z"
+  "generatedAt": "2026-05-25T15:31:32.627Z"
 }
