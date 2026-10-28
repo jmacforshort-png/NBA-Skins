@@ -1,6 +1,6 @@
 {
   "seasonStart": "2025-10-21",
-  "asOf": "2026-10-27",
+  "asOf": "2026-10-28",
   "people": [
     {
       "name": "John",
@@ -19,7 +19,7 @@
         {
           "team": "Sacramento Kings",
           "wl": "L",
-          "earned": 63
+          "earned": 64
         },
         {
           "team": "Milwaukee Bucks",
@@ -37,7 +37,7 @@
           "earned": 44
         }
       ],
-      "total": 307,
+      "total": 308,
       "series": [
         {
           "date": "2025-10-21",
@@ -253,7 +253,11 @@
         },
         {
           "date": "2026-10-27",
-          "total": 307
+          "total": 308
+        },
+        {
+          "date": "2026-10-28",
+          "total": 308
         }
       ]
     },
@@ -509,6 +513,10 @@
         {
           "date": "2026-10-27",
           "total": 298
+        },
+        {
+          "date": "2026-10-28",
+          "total": 298
         }
       ]
     },
@@ -519,12 +527,12 @@
         {
           "team": "Brooklyn Nets",
           "wl": "L",
-          "earned": 65
+          "earned": 66
         },
         {
           "team": "New York Knicks",
           "wl": "W",
-          "earned": 70
+          "earned": 71
         },
         {
           "team": "Phoenix Suns",
@@ -537,7 +545,7 @@
           "earned": 70
         },
         {
-          "team": "LA Clippers",
+          "team": "Los Angeles Clippers",
           "wl": "W",
           "earned": 43
         },
@@ -547,7 +555,7 @@
           "earned": 53
         }
       ],
-      "total": 345,
+      "total": 347,
       "series": [
         {
           "date": "2025-10-21",
@@ -763,7 +771,11 @@
         },
         {
           "date": "2026-10-27",
-          "total": 345
+          "total": 347
+        },
+        {
+          "date": "2026-10-28",
+          "total": 347
         }
       ]
     },
@@ -1019,6 +1031,10 @@
         {
           "date": "2026-10-27",
           "total": 295
+        },
+        {
+          "date": "2026-10-28",
+          "total": 295
         }
       ]
     },
@@ -1039,7 +1055,7 @@
         {
           "team": "San Antonio Spurs",
           "wl": "W",
-          "earned": 76
+          "earned": 77
         },
         {
           "team": "Minnesota Timberwolves",
@@ -1057,7 +1073,7 @@
           "earned": 29
         }
       ],
-      "total": 325,
+      "total": 326,
       "series": [
         {
           "date": "2025-10-21",
@@ -1273,10 +1289,14 @@
         },
         {
           "date": "2026-10-27",
-          "total": 325
+          "total": 326
+        },
+        {
+          "date": "2026-10-28",
+          "total": 326
         }
       ]
     }
   ],
-  "generatedAt": "2026-10-27T18:03:32.924Z"
+  "generatedAt": "2026-10-28T18:23:42.193Z"
 }
