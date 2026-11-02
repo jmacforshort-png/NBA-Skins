@@ -1,6 +1,6 @@
 {
   "seasonStart": "2025-10-21",
-  "asOf": "2026-11-01",
+  "asOf": "2026-11-02",
   "people": [
     {
       "name": "John",
@@ -256,7 +256,7 @@
           "total": 308
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "total": 315
         }
       ]
@@ -288,7 +288,7 @@
         {
           "team": "Indiana Pacers",
           "wl": "L",
-          "earned": 67
+          "earned": 68
         },
         {
           "team": "Toronto Raptors",
@@ -296,7 +296,7 @@
           "earned": 52
         }
       ],
-      "total": 303,
+      "total": 304,
       "series": [
         {
           "date": "2025-10-21",
@@ -515,8 +515,8 @@
           "total": 298
         },
         {
-          "date": "2026-11-01",
-          "total": 303
+          "date": "2026-11-02",
+          "total": 304
         }
       ]
     },
@@ -545,7 +545,7 @@
           "earned": 72
         },
         {
-          "team": "Los Angeles Clippers",
+          "team": "LA Clippers",
           "wl": "W",
           "earned": 43
         },
@@ -774,7 +774,7 @@
           "total": 347
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "total": 355
         }
       ]
@@ -796,7 +796,7 @@
         {
           "team": "Golden State Warriors",
           "wl": "W",
-          "earned": 41
+          "earned": 42
         },
         {
           "team": "Atlanta Hawks",
@@ -814,7 +814,7 @@
           "earned": 31
         }
       ],
-      "total": 302,
+      "total": 303,
       "series": [
         {
           "date": "2025-10-21",
@@ -1033,8 +1033,8 @@
           "total": 295
         },
         {
-          "date": "2026-11-01",
-          "total": 302
+          "date": "2026-11-02",
+          "total": 303
         }
       ]
     },
@@ -1065,7 +1065,7 @@
         {
           "team": "Los Angeles Lakers",
           "wl": "W",
-          "earned": 61
+          "earned": 62
         },
         {
           "team": "Memphis Grizzlies",
@@ -1073,7 +1073,7 @@
           "earned": 31
         }
       ],
-      "total": 337,
+      "total": 338,
       "series": [
         {
           "date": "2025-10-21",
@@ -1292,11 +1292,11 @@
           "total": 326
         },
         {
-          "date": "2026-11-01",
-          "total": 337
+          "date": "2026-11-02",
+          "total": 338
         }
       ]
     }
   ],
-  "generatedAt": "2026-11-01T17:59:01.786Z"
+  "generatedAt": "2026-11-02T21:45:36.881Z"
 }
