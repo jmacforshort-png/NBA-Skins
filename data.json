@@ -1,6 +1,6 @@
 {
   "seasonStart": "2025-10-21",
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-06",
   "people": [
     {
       "name": "John",
@@ -34,10 +34,10 @@
         {
           "team": "Miami Heat",
           "wl": "L",
-          "earned": 45
+          "earned": 46
         }
       ],
-      "total": 321,
+      "total": 322,
       "series": [
         {
           "date": "2025-10-21",
@@ -260,8 +260,8 @@
           "total": 318
         },
         {
-          "date": "2026-11-05",
-          "total": 321
+          "date": "2026-11-06",
+          "total": 322
         }
       ]
     },
@@ -523,7 +523,7 @@
           "total": 307
         },
         {
-          "date": "2026-11-05",
+          "date": "2026-11-06",
           "total": 308
         }
       ]
@@ -553,7 +553,7 @@
           "earned": 73
         },
         {
-          "team": "Los Angeles Clippers",
+          "team": "LA Clippers",
           "wl": "W",
           "earned": 43
         },
@@ -786,7 +786,7 @@
           "total": 360
         },
         {
-          "date": "2026-11-05",
+          "date": "2026-11-06",
           "total": 363
         }
       ]
@@ -808,7 +808,7 @@
         {
           "team": "Golden State Warriors",
           "wl": "W",
-          "earned": 43
+          "earned": 44
         },
         {
           "team": "Atlanta Hawks",
@@ -826,7 +826,7 @@
           "earned": 32
         }
       ],
-      "total": 309,
+      "total": 310,
       "series": [
         {
           "date": "2025-10-21",
@@ -1049,8 +1049,8 @@
           "total": 307
         },
         {
-          "date": "2026-11-05",
-          "total": 309
+          "date": "2026-11-06",
+          "total": 310
         }
       ]
     },
@@ -1312,11 +1312,11 @@
           "total": 342
         },
         {
-          "date": "2026-11-05",
+          "date": "2026-11-06",
           "total": 346
         }
       ]
     }
   ],
-  "generatedAt": "2026-11-05T20:00:10.361Z"
+  "generatedAt": "2026-11-06T19:27:49.634Z"
 }
