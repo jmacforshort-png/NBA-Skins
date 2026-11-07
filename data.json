@@ -1,6 +1,6 @@
 {
   "seasonStart": "2025-10-21",
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-07",
   "people": [
     {
       "name": "John",
@@ -9,7 +9,7 @@
         {
           "team": "Utah Jazz",
           "wl": "L",
-          "earned": 67
+          "earned": 68
         },
         {
           "team": "Orlando Magic",
@@ -19,7 +19,7 @@
         {
           "team": "Sacramento Kings",
           "wl": "L",
-          "earned": 67
+          "earned": 68
         },
         {
           "team": "Milwaukee Bucks",
@@ -37,7 +37,7 @@
           "earned": 46
         }
       ],
-      "total": 322,
+      "total": 324,
       "series": [
         {
           "date": "2025-10-21",
@@ -260,8 +260,8 @@
           "total": 318
         },
         {
-          "date": "2026-11-06",
-          "total": 322
+          "date": "2026-11-07",
+          "total": 324
         }
       ]
     },
@@ -272,7 +272,7 @@
         {
           "team": "Oklahoma City Thunder",
           "wl": "W",
-          "earned": 81
+          "earned": 82
         },
         {
           "team": "Denver Nuggets",
@@ -282,12 +282,12 @@
         {
           "team": "New Orleans Pelicans",
           "wl": "L",
-          "earned": 60
+          "earned": 61
         },
         {
           "team": "Portland Trail Blazers",
           "wl": "L",
-          "earned": 45
+          "earned": 46
         },
         {
           "team": "Indiana Pacers",
@@ -297,10 +297,10 @@
         {
           "team": "Toronto Raptors",
           "wl": "W",
-          "earned": 53
+          "earned": 54
         }
       ],
-      "total": 308,
+      "total": 312,
       "series": [
         {
           "date": "2025-10-21",
@@ -523,8 +523,8 @@
           "total": 307
         },
         {
-          "date": "2026-11-06",
-          "total": 308
+          "date": "2026-11-07",
+          "total": 312
         }
       ]
     },
@@ -553,7 +553,7 @@
           "earned": 73
         },
         {
-          "team": "LA Clippers",
+          "team": "Los Angeles Clippers",
           "wl": "W",
           "earned": 43
         },
@@ -786,7 +786,7 @@
           "total": 360
         },
         {
-          "date": "2026-11-06",
+          "date": "2026-11-07",
           "total": 363
         }
       ]
@@ -798,7 +798,7 @@
         {
           "team": "Washington Wizards",
           "wl": "L",
-          "earned": 69
+          "earned": 70
         },
         {
           "team": "Houston Rockets",
@@ -826,7 +826,7 @@
           "earned": 32
         }
       ],
-      "total": 310,
+      "total": 311,
       "series": [
         {
           "date": "2025-10-21",
@@ -1049,8 +1049,8 @@
           "total": 307
         },
         {
-          "date": "2026-11-06",
-          "total": 310
+          "date": "2026-11-07",
+          "total": 311
         }
       ]
     },
@@ -1061,27 +1061,27 @@
         {
           "team": "Charlotte Hornets",
           "wl": "L",
-          "earned": 45
+          "earned": 46
         },
         {
           "team": "Cleveland Cavaliers",
           "wl": "W",
-          "earned": 64
+          "earned": 65
         },
         {
           "team": "San Antonio Spurs",
           "wl": "W",
-          "earned": 81
+          "earned": 82
         },
         {
           "team": "Minnesota Timberwolves",
           "wl": "W",
-          "earned": 61
+          "earned": 62
         },
         {
           "team": "Los Angeles Lakers",
           "wl": "W",
-          "earned": 64
+          "earned": 65
         },
         {
           "team": "Memphis Grizzlies",
@@ -1089,7 +1089,7 @@
           "earned": 31
         }
       ],
-      "total": 346,
+      "total": 351,
       "series": [
         {
           "date": "2025-10-21",
@@ -1312,11 +1312,11 @@
           "total": 342
         },
         {
-          "date": "2026-11-06",
-          "total": 346
+          "date": "2026-11-07",
+          "total": 351
         }
       ]
     }
   ],
-  "generatedAt": "2026-11-06T19:27:49.634Z"
+  "generatedAt": "2026-11-07T17:47:44.018Z"
 }
