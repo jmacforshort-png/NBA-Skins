@@ -1,6 +1,6 @@
 {
   "seasonStart": "2025-10-21",
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-20",
   "people": [
     {
       "name": "John",
@@ -268,7 +268,7 @@
           "total": 340
         },
         {
-          "date": "2026-11-19",
+          "date": "2026-11-20",
           "total": 341
         }
       ]
@@ -539,7 +539,7 @@
           "total": 325
         },
         {
-          "date": "2026-11-19",
+          "date": "2026-11-20",
           "total": 327
         }
       ]
@@ -556,7 +556,7 @@
         {
           "team": "New York Knicks",
           "wl": "W",
-          "earned": 78
+          "earned": 79
         },
         {
           "team": "Phoenix Suns",
@@ -569,7 +569,7 @@
           "earned": 77
         },
         {
-          "team": "Los Angeles Clippers",
+          "team": "LA Clippers",
           "wl": "W",
           "earned": 46
         },
@@ -579,7 +579,7 @@
           "earned": 63
         }
       ],
-      "total": 386,
+      "total": 387,
       "series": [
         {
           "date": "2025-10-21",
@@ -810,8 +810,8 @@
           "total": 383
         },
         {
-          "date": "2026-11-19",
-          "total": 386
+          "date": "2026-11-20",
+          "total": 387
         }
       ]
     },
@@ -1081,7 +1081,7 @@
           "total": 329
         },
         {
-          "date": "2026-11-19",
+          "date": "2026-11-20",
           "total": 331
         }
       ]
@@ -1103,7 +1103,7 @@
         {
           "team": "San Antonio Spurs",
           "wl": "W",
-          "earned": 87
+          "earned": 88
         },
         {
           "team": "Minnesota Timberwolves",
@@ -1118,10 +1118,10 @@
         {
           "team": "Memphis Grizzlies",
           "wl": "W",
-          "earned": 36
+          "earned": 37
         }
       ],
-      "total": 376,
+      "total": 378,
       "series": [
         {
           "date": "2025-10-21",
@@ -1352,11 +1352,11 @@
           "total": 375
         },
         {
-          "date": "2026-11-19",
-          "total": 376
+          "date": "2026-11-20",
+          "total": 378
         }
       ]
     }
   ],
-  "generatedAt": "2026-11-19T20:40:55.244Z"
+  "generatedAt": "2026-11-20T20:23:49.036Z"
 }
